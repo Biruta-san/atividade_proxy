@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class QueryProxy implements Query {
     private RealQuery realQuery;
     private Map<String, String> cache;
